@@ -1,0 +1,58 @@
+/* * start general styling  */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --main-color: black;
+    --text-color: white ;
+    --primary-color: rgb(226, 30, 30) ;
+}
+::selection{
+    background-color: var(--primary-color);
+    color: white;
+}
+
+/* * start style the section */
+section {
+    background-color: var(--main-color);
+    color: var(--text-color);
+    height: 100vh;
+}
+
+.container h1{
+    color: var(--primary-color);
+    font-weight: 900;
+}
+
+button{
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    border: none;
+    padding: 10px 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 15px; 
+    transition: .5s all; 
+}
+button:hover{
+    background-color: var(--main-color);
+    color: var(--text-color);
+    border: 1px solid var(--primary-color);
+    padding: 10px 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 15px;  
+}
+
+.item{
+    border: 1px solid var(--primary-color);
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 var(--primary-color);
+    padding: 30px;
+}
+.fa-quote-right{
+    margin-left: 520px;
+}
+
+
